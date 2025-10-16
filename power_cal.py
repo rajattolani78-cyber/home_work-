@@ -1,4 +1,4 @@
-b = int(input("enter your base value: "))
+b = int(input("enter your base vlue: "))
 e = int(input("enter your exponent value: "))
 def power (base,exponent):
     if exponent > 0 :
