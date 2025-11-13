@@ -46,7 +46,6 @@ while True :
     elif choice == "3":
         atm = float(input("Enter the amount to withdraw: "))
         withdraw(atm)
-        print (f"amount{atm} withdraw successfully")
     elif choice == "4":
         check_kyc()
     elif choice == "5":
