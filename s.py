@@ -1,5 +1,5 @@
 #-------------random die roll 
-# import random 
+import random 
 # while True:
 #     i = input("if you want to play press 'enter', if you want to quit press 'q':  ")
 #     if i == 'q':
@@ -7,16 +7,17 @@
 #         break
 #     elif i == '':
 #         print(random.randint(1,6))
-#-------------word counter 
-# random_words = ["india3
-# ","idonasia","japan","inderpresh","sunio","prestige","procetion","iodine","iron"]
-# cont = 0
-# ra = []
-# for i in random_words:
-#     if i[0]=="j":
-#         cont = cont + 1
-#         ra.append(i)
-# print(cont,ra)
+#-------------find word by letter
+random_words = ["india3","idonasia","japan","inderpresh","sunio","prestige","procetion","iodine","iron"]
+finder_word  = input("enter the word you want to find in dic: ")
+cont = 0
+ra_output = []
+for i in random_words:
+    if i[0]== finder_word:
+        cont = cont + 1
+        ra_output.append(i)
+print(f"the number of output present in the dic {cont}, the output that is matches your word {ra_output}")
+#-------------number guess game
 # secreat_number = random.randint(1,90)
 # attampts = 10
 
