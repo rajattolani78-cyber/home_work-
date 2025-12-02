@@ -34,5 +34,7 @@
 #             print("try lower number")
 #     attampts-=1
 # print (f"GAME OVER,the seacreat number was {secreat_number}")
-    
- 
+for i in range (6,0-1,):
+    for j in range (i):
+          print("*",end = " ")
+    print()
